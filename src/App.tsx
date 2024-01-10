@@ -1,5 +1,9 @@
-function App() {
-  return <h1>Hi</h1>;
-}
+import { PageHeader } from "./layouts/PageHeader.tsx";
 
-export default App;
+export default function App() {
+  return (
+    <div className="max-h-screen flex-column">
+      <PageHeader />
+    </div>
+  );
+}
