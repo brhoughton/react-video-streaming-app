@@ -3,6 +3,7 @@ import { CategoryPills } from "./components/CategoryPills.tsx";
 import { categories, videos } from "./data/home.ts";
 import { PageHeader } from "./layouts/PageHeader.tsx";
 import { VideoGridItem } from "./components/VideoGridItem.tsx";
+import { Sidebar } from "./layouts/Sidebar.tsx";
 
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState(categories[0]);
@@ -10,7 +11,7 @@ export default function App() {
     <div className="max-h-screen flex flex-col">
       <PageHeader />
       <div className="grid grid-cols-[auto,1fr] flex-grow-1 overflow-auto">
-        <div>Sidebar</div>
+        <Sidebar />
         <div className="overflow-x-hidden px-8 pb-4">
           <div className="sticky top-0 bg-white z-10 pb-4">
             <CategoryPills
@@ -30,4 +31,5 @@ export default function App() {
   );
 }
 
-// 1:03:39
+// 1:26:22
+// https://www.youtube.com/watch?v=ymGB1lqP1CM
