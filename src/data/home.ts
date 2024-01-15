@@ -19,35 +19,32 @@ export const categories = [
 export const videos = [
   {
     id: "1",
-    title: "CSS Anchor Is The Best New CSS Feature Since Flexbox",
+    title: "The Unfiltered Thought Process of a Pro Front-End Dev",
     channel: {
-      name: "Web Dev Simplified",
-      id: "WebDevSimplified",
-      profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj",
+      name: "Hyperplexed",
+      id: "Hyperplexed",
+      profileUrl: "/src/assets/videos/icons/hyperplexed.png",
     },
-    views: 222536,
+    views: 189000,
     postedAt: new Date("2023-08-29"),
-    duration: 938,
-    thumbnailUrl: "https://i.ytimg.com/vi/B4Y9Ed4lLAI/maxresdefault.jpg",
+    duration: 408,
+    thumbnailUrl: "/src/assets/videos/covers/hyperplexed.png",
     videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "src/assets/videos/Videos/hyperplexed-the-unfiltered-thought-process.mp4",
   },
   {
     id: "2",
-    title: "NEW Way To Create Variables In JavaScript",
+    title: "How To Dial In Espresso: Beginner To Pro In 22 Minutes!",
     channel: {
-      name: "Web Dev Simplified",
-      id: "WebDevSimplified",
-      profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj",
+      name: "ARAMSE",
+      id: "ARAMSE",
+      profileUrl: "src/assets/videos/icons/aramse.png",
     },
     views: 257136,
     postedAt: new Date("2023-08-22"),
-    duration: 732,
-    thumbnailUrl: "https://i.ytimg.com/vi/d6a8RymS1zI/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    duration: 2230,
+    thumbnailUrl: "src/assets/videos/covers/aramse.png",
+    videoUrl: "src/assets/videos/videos/amarse-an-espresso-masterclass.mp4",
   },
   {
     id: "3",
@@ -144,5 +141,112 @@ export const videos = [
     thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
     videoUrl:
       "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+  },
+  {
+    id: "8",
+    title: "Zig in 100 Seconds",
+    channel: {
+      name: "Fireship",
+      id: "Fireship",
+      profileUrl:
+        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
+    },
+    views: 20323340,
+    postedAt: new Date("2023-09-09"),
+    duration: 105,
+    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
+    videoUrl:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+  },
+  {
+    id: "8",
+    title: "Zig in 100 Seconds",
+    channel: {
+      name: "Fireship",
+      id: "Fireship",
+      profileUrl:
+        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
+    },
+    views: 20323340,
+    postedAt: new Date("2023-09-09"),
+    duration: 105,
+    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
+    videoUrl:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+  },
+  {
+    id: "8",
+    title: "Zig in 100 Seconds",
+    channel: {
+      name: "Fireship",
+      id: "Fireship",
+      profileUrl:
+        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
+    },
+    views: 20323340,
+    postedAt: new Date("2023-09-09"),
+    duration: 105,
+    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
+    videoUrl:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+  },
+  {
+    id: "8",
+    title: "Zig in 100 Seconds",
+    channel: {
+      name: "Fireship",
+      id: "Fireship",
+      profileUrl:
+        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
+    },
+    views: 20323340,
+    postedAt: new Date("2023-09-09"),
+    duration: 105,
+    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
+    videoUrl:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+  },
+];
+
+export const subscriptions = [
+  {
+    channelName: "Fireship",
+    id: "Fireship",
+    imgUrl: "http://www.google.com",
+  },
+  {
+    channelName: "Fireship",
+    id: "Fireship",
+    imgUrl: "http://www.google.com",
+  },
+  {
+    channelName: "Fireship",
+    id: "Fireship",
+    imgUrl: "http://www.google.com",
+  },
+  {
+    channelName: "Fireship",
+    id: "Fireship",
+    imgUrl: "http://www.google.com",
+  },
+  {
+    channelName: "Fireship",
+    id: "Fireship",
+    imgUrl: "http://www.google.com",
+  },
+  {
+    channelName: "Fireship",
+    id: "Fireship",
+    imgUrl: "http://www.google.com",
+  },
+  {
+    channelName: "Fireship",
+    id: "Fireship",
+    imgUrl: "http://www.google.com",
+  },
+  {
+    channelName: "Fireship",
+    id: "Fireship",
+    imgUrl: "http://www.google.com",
   },
 ];
