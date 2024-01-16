@@ -48,205 +48,115 @@ export const videos = [
   },
   {
     id: "3",
-    title: "Front-end developer takes on a CSS battle",
+    title: "Top Things You NEED To Do In Yosemite National Park",
     channel: {
-      name: "Kevin Powell",
-      id: "KevinPowell",
-      profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj",
+      name: "Parked In Paradise",
+      id: "ParkedInParadise",
+      profileUrl: "src/assets/videos/icons/parkedinparadise.png",
     },
     views: 1232300,
     postedAt: new Date("2023-10-05"),
-    duration: 120,
-    thumbnailUrl: "https://i.ytimg.com/vi/eYPyIq5Y3Rk/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    duration: 831,
+    thumbnailUrl: "src/assets/videos/covers/parkedinparadise.png",
+    videoUrl: "src/assets/videos/videos/yosemite.mp4",
   },
   {
     id: "4",
-    title: "Quick guide to CSS focus states",
+    title: "The Right Stuff — The Folio Society Limited Edition",
     channel: {
-      name: "Kevin Powell",
-      id: "KevinPowell",
-      profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKa6XiLa13mMVPzkmmTBcgNPjjqCGPrY86KfJFmf5w=s48-c-k-c0x00ffffff-no-rj",
+      name: "The Folio Society",
+      id: "FolioSociety",
+      profileUrl: "src/assets/videos/icons/folio.png",
     },
-    views: 112,
+    views: 112000,
     postedAt: new Date("2023-9-19"),
     duration: 4343,
-    thumbnailUrl: "https://i.ytimg.com/vi/apdD69J4bEc/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    thumbnailUrl: "src/assets/videos/covers/folio.png",
+    videoUrl: "src/assets/videos/videos/folio.mp4",
   },
   {
     id: "5",
-    title: "I Cannot Believe React Made A Hook For This",
+    title: "This Woman Deconstructs 100-Year-Old Books To Restore Them",
     channel: {
-      name: "Web Dev Simplified",
-      id: "WebDevSimplified",
-      profileUrl:
-        "https://yt3.ggpht.com/ytc/APkrFKZWeMCsx4Q9e_Hm6nhOOUQ3fv96QGUXiMr1-pPP=s48-c-k-c0x00ffffff-no-rj",
+      name: "WIRED",
+      id: "WIRED",
+      profileUrl: "src/assets/videos/icons/wired.png",
     },
-    views: 42345,
+    views: 423450,
     postedAt: new Date("2023-03-02"),
-    duration: 1000,
-    thumbnailUrl: "https://i.ytimg.com/vi/M3mGY0pgFk0/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    duration: 1008,
+    thumbnailUrl: "src/assets/videos/covers/wired.png",
+    videoUrl: "src/assets/videos/videos/wired.mp4",
   },
   {
     id: "6",
-    title: "I Got Laid Off...",
+    title: "$500 Espresso Machine into $5,000 Espresso Machine",
     channel: {
-      name: "Caleb Curry",
-      id: "CalebCurry",
-      profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKbpSojje_-tkBQecNtFuPdSCrg3ZT0FhaYjln9k0g=s176-c-k-c0x00ffffff-no-rj",
+      name: "Lance Hedrick",
+      id: "LanceHedrick",
+      profileUrl: "src/assets/videos/icons/lance.png",
     },
     views: 10340,
     postedAt: new Date("2023-03-03"),
-    duration: 54,
-    thumbnailUrl: "https://i.ytimg.com/vi/i2JVQdLnkAY/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    duration: 548,
+    thumbnailUrl: "src/assets/videos/covers/lance.png",
+    videoUrl: "src/assets/videos/videos/lance.mp4",
   },
   {
     id: "7",
-    title: "Tails OS in 100 Seconds",
+    title: "How to use TypeScript with React... But should you?",
     channel: {
       name: "Fireship",
       id: "Fireship",
       profileUrl:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
-    views: 10323340,
+    views: 7323340,
     postedAt: new Date("2023-08-09"),
-    duration: 100,
-    thumbnailUrl: "https://i.ytimg.com/vi/mVKAyw0xqxw/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    duration: 635,
+    thumbnailUrl: "src/assets/videos/covers/fireship.png",
+    videoUrl: "src/assets/videos/videos/fireship.mp4",
   },
   {
     id: "8",
-    title: "Zig in 100 Seconds",
+    title: "The ULTIMATE TRAVEL GUIDE to Yosemite 2024",
     channel: {
-      name: "Fireship",
-      id: "Fireship",
-      profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
+      name: "Travel Eaz",
+      id: "TravelEaz",
+      profileUrl: "src/assets/videos/icons/yosemite-2.png",
     },
-    views: 20323340,
-    postedAt: new Date("2023-09-09"),
-    duration: 105,
-    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-  },
-  {
-    id: "8",
-    title: "Zig in 100 Seconds",
-    channel: {
-      name: "Fireship",
-      id: "Fireship",
-      profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
-    },
-    views: 20323340,
-    postedAt: new Date("2023-09-09"),
-    duration: 105,
-    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-  },
-  {
-    id: "8",
-    title: "Zig in 100 Seconds",
-    channel: {
-      name: "Fireship",
-      id: "Fireship",
-      profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
-    },
-    views: 20323340,
-    postedAt: new Date("2023-09-09"),
-    duration: 105,
-    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-  },
-  {
-    id: "8",
-    title: "Zig in 100 Seconds",
-    channel: {
-      name: "Fireship",
-      id: "Fireship",
-      profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
-    },
-    views: 20323340,
-    postedAt: new Date("2023-09-09"),
-    duration: 105,
-    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-  },
-  {
-    id: "8",
-    title: "Zig in 100 Seconds",
-    channel: {
-      name: "Fireship",
-      id: "Fireship",
-      profileUrl:
-        "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
-    },
-    views: 20323340,
-    postedAt: new Date("2023-09-09"),
-    duration: 105,
-    thumbnailUrl: "https://i.ytimg.com/vi/kxT8-C1vmd4/maxresdefault.jpg",
-    videoUrl:
-      "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    views: 903233,
+    postedAt: new Date("2023-08-09"),
+    duration: 635,
+    thumbnailUrl: "src/assets/videos/covers/yosemite-2.png",
+    videoUrl: "src/assets/videos/videos/yosemite-2.mp4",
   },
 ];
 
 export const subscriptions = [
   {
-    channelName: "Fireship",
+    channelName: "Hyperplexed",
     id: "Fireship",
-    imgUrl: "http://www.google.com",
+    imgUrl: "src/assets/videos/icons/hyperplexed.png",
   },
   {
-    channelName: "Fireship",
-    id: "Fireship",
-    imgUrl: "http://www.google.com",
+    channelName: "ARAMSE",
+    id: "ARAMSE",
+    imgUrl: "src/assets/videos/icons/aramse.png",
   },
   {
-    channelName: "Fireship",
-    id: "Fireship",
-    imgUrl: "http://www.google.com",
+    channelName: "Parked In Paradise",
+    id: "ParkedInParadise",
+    imgUrl: "src/assets/videos/icons/parkedinparadise.png",
   },
   {
-    channelName: "Fireship",
-    id: "Fireship",
-    imgUrl: "http://www.google.com",
+    channelName: "The Folio Society",
+    id: "FolioSociety",
+    imgUrl: "src/assets/videos/icons/folio.png",
   },
   {
-    channelName: "Fireship",
-    id: "Fireship",
-    imgUrl: "http://www.google.com",
-  },
-  {
-    channelName: "Fireship",
-    id: "Fireship",
-    imgUrl: "http://www.google.com",
-  },
-  {
-    channelName: "Fireship",
-    id: "Fireship",
-    imgUrl: "http://www.google.com",
-  },
-  {
-    channelName: "Fireship",
-    id: "Fireship",
-    imgUrl: "http://www.google.com",
+    channelName: "WIRED",
+    id: "WIRED",
+    imgUrl: "src/assets/videos/icons/wired.png",
   },
 ];

@@ -109,7 +109,7 @@ export function Sidebar() {
             <LargeSidebarItem
               key={playlist.id}
               IconOrImgUrl={ListVideo}
-              title={playlist.name}
+              title={playlist.channelName}
               url={`/playlist?list=${playlist.id}`}
             />
           ))}
