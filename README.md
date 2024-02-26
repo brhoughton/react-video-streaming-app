@@ -6,8 +6,6 @@ An SPA that mimics an existing and very popular video streaming site.
 
 The goal with this project was to see how closely I could reproduce the landing page for a very popular video streaming site.
 
-## Getting Started
-
 ### Dependencies
 
 - TypeScript 5.3.3
